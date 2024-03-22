@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		937D16402BADF9FA00298D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D163F2BADF9FA00298D71 /* AppDelegate.swift */; };
 		937D16422BADF9FA00298D71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16412BADF9FA00298D71 /* SceneDelegate.swift */; };
-		937D16442BADF9FA00298D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16432BADF9FA00298D71 /* ViewController.swift */; };
 		937D16472BADF9FA00298D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937D16452BADF9FA00298D71 /* Main.storyboard */; };
 		937D16492BADF9FD00298D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937D16482BADF9FD00298D71 /* Assets.xcassets */; };
 		937D164C2BADF9FD00298D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937D164A2BADF9FD00298D71 /* LaunchScreen.storyboard */; };
+		937D165E2BADFBE100298D71 /* RMOperationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16532BADFBE000298D71 /* RMOperationViewController.swift */; };
+		937D165F2BADFBE100298D71 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16542BADFBE000298D71 /* RecipeViewController.swift */; };
+		937D16602BADFBE100298D71 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16552BADFBE000298D71 /* PostViewController.swift */; };
+		937D16612BADFBE100298D71 /* ProblemTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16562BADFBE000298D71 /* ProblemTwoViewController.swift */; };
+		937D16622BADFBE100298D71 /* WritePhraseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16572BADFBE000298D71 /* WritePhraseViewController.swift */; };
+		937D16632BADFBE100298D71 /* OwnOperationQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16582BADFBE000298D71 /* OwnOperationQueueViewController.swift */; };
+		937D16642BADFBE100298D71 /* FivePostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D16592BADFBE000298D71 /* FivePostsViewController.swift */; };
+		937D16652BADFBE100298D71 /* CorrectingMistakesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165A2BADFBE000298D71 /* CorrectingMistakesViewController.swift */; };
+		937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */; };
+		937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */; };
+		937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		937D163C2BADF9FA00298D71 /* Multithreadings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multithreadings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		937D163F2BADF9FA00298D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		937D16412BADF9FA00298D71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		937D16432BADF9FA00298D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		937D16462BADF9FA00298D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937D16482BADF9FD00298D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		937D164B2BADF9FD00298D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937D164D2BADF9FD00298D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937D16532BADFBE000298D71 /* RMOperationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMOperationViewController.swift; sourceTree = "<group>"; };
+		937D16542BADFBE000298D71 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		937D16552BADFBE000298D71 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		937D16562BADFBE000298D71 /* ProblemTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemTwoViewController.swift; sourceTree = "<group>"; };
+		937D16572BADFBE000298D71 /* WritePhraseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritePhraseViewController.swift; sourceTree = "<group>"; };
+		937D16582BADFBE000298D71 /* OwnOperationQueueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnOperationQueueViewController.swift; sourceTree = "<group>"; };
+		937D16592BADFBE000298D71 /* FivePostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FivePostsViewController.swift; sourceTree = "<group>"; };
+		937D165A2BADFBE000298D71 /* CorrectingMistakesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CorrectingMistakesViewController.swift; sourceTree = "<group>"; };
+		937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemOneViewController.swift; sourceTree = "<group>"; };
+		937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemThreeViewController.swift; sourceTree = "<group>"; };
+		937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenArrayElementsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +78,17 @@
 			children = (
 				937D163F2BADF9FA00298D71 /* AppDelegate.swift */,
 				937D16412BADF9FA00298D71 /* SceneDelegate.swift */,
-				937D16432BADF9FA00298D71 /* ViewController.swift */,
+				937D165A2BADFBE000298D71 /* CorrectingMistakesViewController.swift */,
+				937D16592BADFBE000298D71 /* FivePostsViewController.swift */,
+				937D16582BADFBE000298D71 /* OwnOperationQueueViewController.swift */,
+				937D16552BADFBE000298D71 /* PostViewController.swift */,
+				937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */,
+				937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */,
+				937D16562BADFBE000298D71 /* ProblemTwoViewController.swift */,
+				937D16542BADFBE000298D71 /* RecipeViewController.swift */,
+				937D16532BADFBE000298D71 /* RMOperationViewController.swift */,
+				937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */,
+				937D16572BADFBE000298D71 /* WritePhraseViewController.swift */,
 				937D16452BADF9FA00298D71 /* Main.storyboard */,
 				937D16482BADF9FD00298D71 /* Assets.xcassets */,
 				937D164A2BADF9FD00298D71 /* LaunchScreen.storyboard */,
@@ -138,9 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				937D16442BADF9FA00298D71 /* ViewController.swift in Sources */,
+				937D16602BADFBE100298D71 /* PostViewController.swift in Sources */,
+				937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */,
+				937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */,
+				937D165E2BADFBE100298D71 /* RMOperationViewController.swift in Sources */,
+				937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */,
 				937D16402BADF9FA00298D71 /* AppDelegate.swift in Sources */,
+				937D16642BADFBE100298D71 /* FivePostsViewController.swift in Sources */,
+				937D16652BADFBE100298D71 /* CorrectingMistakesViewController.swift in Sources */,
+				937D16632BADFBE100298D71 /* OwnOperationQueueViewController.swift in Sources */,
 				937D16422BADF9FA00298D71 /* SceneDelegate.swift in Sources */,
+				937D16612BADFBE100298D71 /* ProblemTwoViewController.swift in Sources */,
+				937D165F2BADFBE100298D71 /* RecipeViewController.swift in Sources */,
+				937D16622BADFBE100298D71 /* WritePhraseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
