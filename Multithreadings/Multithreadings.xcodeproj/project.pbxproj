@@ -23,6 +23,13 @@
 		937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */; };
 		937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */; };
 		937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */; };
+		93F4CE692BAED66D00FB72E0 /* RightPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */; };
+		93F4CE6A2BAED66D00FB72E0 /* CancelTaskFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */; };
+		93F4CE6B2BAED66D00FB72E0 /* RelieveMainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */; };
+		93F4CE6C2BAED66D00FB72E0 /* PrintLettersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */; };
+		93F4CE6D2BAED66D00FB72E0 /* ConsoleOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */; };
+		93F4CE6E2BAED66D00FB72E0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */; };
+		93F4CE6F2BAED66D00FB72E0 /* ThreadSanitizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +51,13 @@
 		937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemOneViewController.swift; sourceTree = "<group>"; };
 		937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemThreeViewController.swift; sourceTree = "<group>"; };
 		937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenArrayElementsViewController.swift; sourceTree = "<group>"; };
+		93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPrioritiesViewController.swift; sourceTree = "<group>"; };
+		93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTaskFlag.swift; sourceTree = "<group>"; };
+		93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelieveMainFlowViewController.swift; sourceTree = "<group>"; };
+		93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLettersViewController.swift; sourceTree = "<group>"; };
+		93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleOrderViewController.swift; sourceTree = "<group>"; };
+		93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,7 @@
 		937D163E2BADF9FA00298D71 /* Multithreadings */ = {
 			isa = PBXGroup;
 			children = (
+				93F4CE612BAED64900FB72E0 /* task1 */,
 				937D163F2BADF9FA00298D71 /* AppDelegate.swift */,
 				937D16412BADF9FA00298D71 /* SceneDelegate.swift */,
 				937D165A2BADFBE000298D71 /* CorrectingMistakesViewController.swift */,
@@ -95,6 +110,20 @@
 				937D164D2BADF9FD00298D71 /* Info.plist */,
 			);
 			path = Multithreadings;
+			sourceTree = "<group>";
+		};
+		93F4CE612BAED64900FB72E0 /* task1 */ = {
+			isa = PBXGroup;
+			children = (
+				93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */,
+				93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */,
+				93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */,
+				93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */,
+				93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */,
+				93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */,
+				93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */,
+			);
+			path = task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,11 +198,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				937D16602BADFBE100298D71 /* PostViewController.swift in Sources */,
+				93F4CE692BAED66D00FB72E0 /* RightPrioritiesViewController.swift in Sources */,
+				93F4CE6F2BAED66D00FB72E0 /* ThreadSanitizerViewController.swift in Sources */,
 				937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */,
+				93F4CE6A2BAED66D00FB72E0 /* CancelTaskFlag.swift in Sources */,
 				937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */,
 				937D165E2BADFBE100298D71 /* RMOperationViewController.swift in Sources */,
+				93F4CE6B2BAED66D00FB72E0 /* RelieveMainFlowViewController.swift in Sources */,
+				93F4CE6E2BAED66D00FB72E0 /* TimerViewController.swift in Sources */,
+				93F4CE6C2BAED66D00FB72E0 /* PrintLettersViewController.swift in Sources */,
 				937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */,
 				937D16402BADF9FA00298D71 /* AppDelegate.swift in Sources */,
+				93F4CE6D2BAED66D00FB72E0 /* ConsoleOrderViewController.swift in Sources */,
 				937D16642BADFBE100298D71 /* FivePostsViewController.swift in Sources */,
 				937D16652BADFBE100298D71 /* CorrectingMistakesViewController.swift in Sources */,
 				937D16632BADFBE100298D71 /* OwnOperationQueueViewController.swift in Sources */,
