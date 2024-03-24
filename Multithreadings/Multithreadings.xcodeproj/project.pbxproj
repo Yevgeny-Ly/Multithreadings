@@ -23,6 +23,13 @@
 		937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */; };
 		937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */; };
 		937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */; };
+		93D433872BB00B5E008B5F88 /* FetchTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D433862BB00B5E008B5F88 /* FetchTaskViewController.swift */; };
+		93D433892BB01974008B5F88 /* TaskGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D433882BB01974008B5F88 /* TaskGroupViewController.swift */; };
+		93F4CE732BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */; };
+		93F4CE752BAEE11A00FB72E0 /* MainActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */; };
+		93F4CE772BAEE86D00FB72E0 /* TaskDetachedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */; };
+		93F4CE792BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */; };
+		93F4CE7B2BAF1CFC00FB72E0 /* СombatMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +51,13 @@
 		937D165B2BADFBE000298D71 /* ProblemOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemOneViewController.swift; sourceTree = "<group>"; };
 		937D165C2BADFBE000298D71 /* ProblemThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemThreeViewController.swift; sourceTree = "<group>"; };
 		937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenArrayElementsViewController.swift; sourceTree = "<group>"; };
+		93D433862BB00B5E008B5F88 /* FetchTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTaskViewController.swift; sourceTree = "<group>"; };
+		93D433882BB01974008B5F88 /* TaskGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewController.swift; sourceTree = "<group>"; };
+		93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWithTaskViewController.swift; sourceTree = "<group>"; };
+		93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorViewController.swift; sourceTree = "<group>"; };
+		93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetachedViewController.swift; sourceTree = "<group>"; };
+		93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDataAsyncAwaitViewController.swift; sourceTree = "<group>"; };
+		93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СombatMissionViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +90,21 @@
 		937D163E2BADF9FA00298D71 /* Multithreadings */ = {
 			isa = PBXGroup;
 			children = (
+				93F4CE702BAEDCBE00FB72E0 /* task2 */,
+				93F4CE712BAEDCD300FB72E0 /* task3 */,
 				937D163F2BADF9FA00298D71 /* AppDelegate.swift */,
 				937D16412BADF9FA00298D71 /* SceneDelegate.swift */,
+				937D16452BADF9FA00298D71 /* Main.storyboard */,
+				937D16482BADF9FD00298D71 /* Assets.xcassets */,
+				937D164A2BADF9FD00298D71 /* LaunchScreen.storyboard */,
+				937D164D2BADF9FD00298D71 /* Info.plist */,
+			);
+			path = Multithreadings;
+			sourceTree = "<group>";
+		};
+		93F4CE702BAEDCBE00FB72E0 /* task2 */ = {
+			isa = PBXGroup;
+			children = (
 				937D165A2BADFBE000298D71 /* CorrectingMistakesViewController.swift */,
 				937D16592BADFBE000298D71 /* FivePostsViewController.swift */,
 				937D16582BADFBE000298D71 /* OwnOperationQueueViewController.swift */,
@@ -89,12 +116,22 @@
 				937D16532BADFBE000298D71 /* RMOperationViewController.swift */,
 				937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */,
 				937D16572BADFBE000298D71 /* WritePhraseViewController.swift */,
-				937D16452BADF9FA00298D71 /* Main.storyboard */,
-				937D16482BADF9FD00298D71 /* Assets.xcassets */,
-				937D164A2BADF9FD00298D71 /* LaunchScreen.storyboard */,
-				937D164D2BADF9FD00298D71 /* Info.plist */,
 			);
-			path = Multithreadings;
+			path = task2;
+			sourceTree = "<group>";
+		};
+		93F4CE712BAEDCD300FB72E0 /* task3 */ = {
+			isa = PBXGroup;
+			children = (
+				93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */,
+				93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */,
+				93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */,
+				93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */,
+				93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */,
+				93D433862BB00B5E008B5F88 /* FetchTaskViewController.swift */,
+				93D433882BB01974008B5F88 /* TaskGroupViewController.swift */,
+			);
+			path = task3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,14 +209,21 @@
 				937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */,
 				937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */,
 				937D165E2BADFBE100298D71 /* RMOperationViewController.swift in Sources */,
+				93F4CE732BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift in Sources */,
 				937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */,
+				93F4CE752BAEE11A00FB72E0 /* MainActorViewController.swift in Sources */,
 				937D16402BADF9FA00298D71 /* AppDelegate.swift in Sources */,
 				937D16642BADFBE100298D71 /* FivePostsViewController.swift in Sources */,
 				937D16652BADFBE100298D71 /* CorrectingMistakesViewController.swift in Sources */,
 				937D16632BADFBE100298D71 /* OwnOperationQueueViewController.swift in Sources */,
+				93D433872BB00B5E008B5F88 /* FetchTaskViewController.swift in Sources */,
+				93F4CE7B2BAF1CFC00FB72E0 /* СombatMissionViewController.swift in Sources */,
 				937D16422BADF9FA00298D71 /* SceneDelegate.swift in Sources */,
 				937D16612BADFBE100298D71 /* ProblemTwoViewController.swift in Sources */,
+				93D433892BB01974008B5F88 /* TaskGroupViewController.swift in Sources */,
 				937D165F2BADFBE100298D71 /* RecipeViewController.swift in Sources */,
+				93F4CE772BAEE86D00FB72E0 /* TaskDetachedViewController.swift in Sources */,
+				93F4CE792BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift in Sources */,
 				937D16622BADFBE100298D71 /* WritePhraseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
