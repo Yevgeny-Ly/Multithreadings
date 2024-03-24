@@ -30,6 +30,13 @@
 		93F4CE772BAEE86D00FB72E0 /* TaskDetachedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */; };
 		93F4CE792BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */; };
 		93F4CE7B2BAF1CFC00FB72E0 /* СombatMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */; };
+		93F4CE692BAED66D00FB72E0 /* RightPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */; };
+		93F4CE6A2BAED66D00FB72E0 /* CancelTaskFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */; };
+		93F4CE6B2BAED66D00FB72E0 /* RelieveMainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */; };
+		93F4CE6C2BAED66D00FB72E0 /* PrintLettersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */; };
+		93F4CE6D2BAED66D00FB72E0 /* ConsoleOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */; };
+		93F4CE6E2BAED66D00FB72E0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */; };
+		93F4CE6F2BAED66D00FB72E0 /* ThreadSanitizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +65,13 @@
 		93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetachedViewController.swift; sourceTree = "<group>"; };
 		93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDataAsyncAwaitViewController.swift; sourceTree = "<group>"; };
 		93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СombatMissionViewController.swift"; sourceTree = "<group>"; };
+		93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPrioritiesViewController.swift; sourceTree = "<group>"; };
+		93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTaskFlag.swift; sourceTree = "<group>"; };
+		93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelieveMainFlowViewController.swift; sourceTree = "<group>"; };
+		93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLettersViewController.swift; sourceTree = "<group>"; };
+		93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleOrderViewController.swift; sourceTree = "<group>"; };
+		93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			children = (
 				93F4CE702BAEDCBE00FB72E0 /* task2 */,
 				93F4CE712BAEDCD300FB72E0 /* task3 */,
+				93F4CE612BAED64900FB72E0 /* task1 */,
 				937D163F2BADF9FA00298D71 /* AppDelegate.swift */,
 				937D16412BADF9FA00298D71 /* SceneDelegate.swift */,
 				937D16452BADF9FA00298D71 /* Main.storyboard */,
@@ -132,6 +147,20 @@
 				93D433882BB01974008B5F88 /* TaskGroupViewController.swift */,
 			);
 			path = task3;
+			sourceTree = "<group>";
+		};
+		93F4CE612BAED64900FB72E0 /* task1 */ = {
+			isa = PBXGroup;
+			children = (
+				93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */,
+				93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */,
+				93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */,
+				93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */,
+				93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */,
+				93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */,
+				93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */,
+			);
+			path = task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,13 +235,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				937D16602BADFBE100298D71 /* PostViewController.swift in Sources */,
+				93F4CE692BAED66D00FB72E0 /* RightPrioritiesViewController.swift in Sources */,
+				93F4CE6F2BAED66D00FB72E0 /* ThreadSanitizerViewController.swift in Sources */,
 				937D16672BADFBE100298D71 /* ProblemThreeViewController.swift in Sources */,
+				93F4CE6A2BAED66D00FB72E0 /* CancelTaskFlag.swift in Sources */,
 				937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */,
 				937D165E2BADFBE100298D71 /* RMOperationViewController.swift in Sources */,
 				93F4CE732BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift in Sources */,
+				93F4CE6B2BAED66D00FB72E0 /* RelieveMainFlowViewController.swift in Sources */,
+				93F4CE6E2BAED66D00FB72E0 /* TimerViewController.swift in Sources */,
+				93F4CE6C2BAED66D00FB72E0 /* PrintLettersViewController.swift in Sources */,
 				937D16662BADFBE100298D71 /* ProblemOneViewController.swift in Sources */,
 				93F4CE752BAEE11A00FB72E0 /* MainActorViewController.swift in Sources */,
 				937D16402BADF9FA00298D71 /* AppDelegate.swift in Sources */,
+				93F4CE6D2BAED66D00FB72E0 /* ConsoleOrderViewController.swift in Sources */,
 				937D16642BADFBE100298D71 /* FivePostsViewController.swift in Sources */,
 				937D16652BADFBE100298D71 /* CorrectingMistakesViewController.swift in Sources */,
 				937D16632BADFBE100298D71 /* OwnOperationQueueViewController.swift in Sources */,
