@@ -18,7 +18,7 @@ class TaskGroupViewController: UIViewController {
     
     func printMessage() async {
         let string = await withTaskGroup(of: String.self) { group -> String in
-            // тут добавляем строки в группу
+            /// тут добавляем строки в группу
             
             group.addTask {
                 "Hello"

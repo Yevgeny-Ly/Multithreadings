@@ -16,9 +16,9 @@ class СombatMissionViewController: UIViewController {
         let operation = Operation()
         print(operation.queuePriority.rawValue)
         
-//        Task {
-//            try await fetchMessages()
-//        }
+        Task {
+            try await fetchMessages()
+        }
     }
     
     /// task 2

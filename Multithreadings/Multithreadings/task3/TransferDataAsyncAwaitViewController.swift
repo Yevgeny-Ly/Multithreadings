@@ -17,7 +17,7 @@ class TransferDataAsyncAwaitViewController: UIViewController {
         }
         
         func randomD6() async -> Int {
-                Int.random(in: 1...6)
+            Int.random(in: 1...6)
         }
     }
 }

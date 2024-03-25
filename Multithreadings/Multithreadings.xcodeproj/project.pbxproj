@@ -25,11 +25,6 @@
 		937D16682BADFBE100298D71 /* TenArrayElementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */; };
 		93D433872BB00B5E008B5F88 /* FetchTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D433862BB00B5E008B5F88 /* FetchTaskViewController.swift */; };
 		93D433892BB01974008B5F88 /* TaskGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D433882BB01974008B5F88 /* TaskGroupViewController.swift */; };
-		93F4CE732BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */; };
-		93F4CE752BAEE11A00FB72E0 /* MainActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */; };
-		93F4CE772BAEE86D00FB72E0 /* TaskDetachedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */; };
-		93F4CE792BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */; };
-		93F4CE7B2BAF1CFC00FB72E0 /* СombatMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */; };
 		93F4CE692BAED66D00FB72E0 /* RightPrioritiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */; };
 		93F4CE6A2BAED66D00FB72E0 /* CancelTaskFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */; };
 		93F4CE6B2BAED66D00FB72E0 /* RelieveMainFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */; };
@@ -37,6 +32,11 @@
 		93F4CE6D2BAED66D00FB72E0 /* ConsoleOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */; };
 		93F4CE6E2BAED66D00FB72E0 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */; };
 		93F4CE6F2BAED66D00FB72E0 /* ThreadSanitizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */; };
+		93F4CE732BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */; };
+		93F4CE752BAEE11A00FB72E0 /* MainActorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */; };
+		93F4CE772BAEE86D00FB72E0 /* TaskDetachedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */; };
+		93F4CE792BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */; };
+		93F4CE7B2BAF1CFC00FB72E0 /* СombatMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,11 +60,6 @@
 		937D165D2BADFBE100298D71 /* TenArrayElementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenArrayElementsViewController.swift; sourceTree = "<group>"; };
 		93D433862BB00B5E008B5F88 /* FetchTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTaskViewController.swift; sourceTree = "<group>"; };
 		93D433882BB01974008B5F88 /* TaskGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupViewController.swift; sourceTree = "<group>"; };
-		93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWithTaskViewController.swift; sourceTree = "<group>"; };
-		93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorViewController.swift; sourceTree = "<group>"; };
-		93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetachedViewController.swift; sourceTree = "<group>"; };
-		93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDataAsyncAwaitViewController.swift; sourceTree = "<group>"; };
-		93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СombatMissionViewController.swift"; sourceTree = "<group>"; };
 		93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPrioritiesViewController.swift; sourceTree = "<group>"; };
 		93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTaskFlag.swift; sourceTree = "<group>"; };
 		93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelieveMainFlowViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +67,11 @@
 		93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleOrderViewController.swift; sourceTree = "<group>"; };
 		93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadSanitizerViewController.swift; sourceTree = "<group>"; };
+		93F4CE722BAEDD4A00FB72E0 /* ReplaceWithTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceWithTaskViewController.swift; sourceTree = "<group>"; };
+		93F4CE742BAEE11A00FB72E0 /* MainActorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActorViewController.swift; sourceTree = "<group>"; };
+		93F4CE762BAEE86D00FB72E0 /* TaskDetachedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetachedViewController.swift; sourceTree = "<group>"; };
+		93F4CE782BAF031300FB72E0 /* TransferDataAsyncAwaitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDataAsyncAwaitViewController.swift; sourceTree = "<group>"; };
+		93F4CE7A2BAF1CFC00FB72E0 /* СombatMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СombatMissionViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +104,9 @@
 		937D163E2BADF9FA00298D71 /* Multithreadings */ = {
 			isa = PBXGroup;
 			children = (
+				93F4CE612BAED64900FB72E0 /* task1 */,
 				93F4CE702BAEDCBE00FB72E0 /* task2 */,
 				93F4CE712BAEDCD300FB72E0 /* task3 */,
-				93F4CE612BAED64900FB72E0 /* task1 */,
 				937D163F2BADF9FA00298D71 /* AppDelegate.swift */,
 				937D16412BADF9FA00298D71 /* SceneDelegate.swift */,
 				937D16452BADF9FA00298D71 /* Main.storyboard */,
@@ -115,6 +115,20 @@
 				937D164D2BADF9FD00298D71 /* Info.plist */,
 			);
 			path = Multithreadings;
+			sourceTree = "<group>";
+		};
+		93F4CE612BAED64900FB72E0 /* task1 */ = {
+			isa = PBXGroup;
+			children = (
+				93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */,
+				93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */,
+				93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */,
+				93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */,
+				93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */,
+				93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */,
+				93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */,
+			);
+			path = task1;
 			sourceTree = "<group>";
 		};
 		93F4CE702BAEDCBE00FB72E0 /* task2 */ = {
@@ -147,20 +161,6 @@
 				93D433882BB01974008B5F88 /* TaskGroupViewController.swift */,
 			);
 			path = task3;
-			sourceTree = "<group>";
-		};
-		93F4CE612BAED64900FB72E0 /* task1 */ = {
-			isa = PBXGroup;
-			children = (
-				93F4CE632BAED66D00FB72E0 /* CancelTaskFlag.swift */,
-				93F4CE662BAED66D00FB72E0 /* ConsoleOrderViewController.swift */,
-				93F4CE652BAED66D00FB72E0 /* PrintLettersViewController.swift */,
-				93F4CE642BAED66D00FB72E0 /* RelieveMainFlowViewController.swift */,
-				93F4CE622BAED66D00FB72E0 /* RightPrioritiesViewController.swift */,
-				93F4CE682BAED66D00FB72E0 /* ThreadSanitizerViewController.swift */,
-				93F4CE672BAED66D00FB72E0 /* TimerViewController.swift */,
-			);
-			path = task1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
